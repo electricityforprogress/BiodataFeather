@@ -5,32 +5,4 @@ Still a work in progress, and can provide the framework for anyone to use other 
 ![Biodata BLE and Wifi MIDI](/BiodataFeather.jpg)
 See also the project submission on [Hackaday.io](https://hackaday.io/project/168811-biodata-sonification-feather)
 Parts Listing / BOM
-QUANTITY	 	COMPONENT NAME
-1	×	LMC555
-‎296-34367-5-ND‎
-1	×	Optoisolator
-160-1361-5-ND‎
-1	×	10k Potentiometer - 9mm
-‎987-1277-ND‎
-1	×	220 ohm Resistor
-ESP8266 voltage Divider
-1	×	100 ohm Resistor
-ESP8266 voltage Divider
-1	×	Adafruit ESP32 Feather, Huzzah, or other Feather
-1	×	LiPo Battery - 350mAh
-1	×	3D Printed Enclosure
-1	×	Mini Switch for Power/Enable
-https://www.amazon.com/Cylewet-Vertical-Switch-Arduino-CYT1016/dp/B01N7NCW8N/ref=sr_1_3?crid=16A9RAIVSD77P&dchild=1&keywords=mini+spst+slide+switch&qid=1597760571&sprefix=mini+spst+%2Caps%2C143&sr=8-3
-1	×	3v DCDC isolator
-811-2889-5-ND‎
-1	×	.0042uf capacitor
-Timing Capacitor
-5	×	Neopixel
-1	×	10 ohm Resistor
-MIDI Power output (3.3v) - 5ma
-1	×	100k Resistor
-Timing Resistor
-2	×	3.5mm stereo jack
-‎CP-3524SJBECT-ND‎ and CP-3524SJGRCT-ND‎
-2	×	Electrode Pads ('tens' snap gel pad)
-1	×	Snap Electrodes
+
