@@ -199,7 +199,7 @@ void loop() {
              if(button.isSingleClick()) {
                 Serial.print("Menu "); Serial.println(menu);
                 menuTimer = millis();
-                while(menuTimer + 10000 > millis()){
+                while(menuTimer + 20000 > millis()){
                     
                     button.update();
                     //knob turn to extend time and select menu

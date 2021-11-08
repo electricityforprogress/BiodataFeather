@@ -79,7 +79,7 @@ const byte interruptPin = 12; //galvanometer input
 
 //leds
 byte leds[5] = { 26,25,4,5,18 };
-byte ledBrightness[5] = {50,110,120,120,60};
+byte ledBrightness[5] = {185,255,255,255,195};  //{50,110,120,120,60};
 byte maxBrightness = 60;
 bool blinkToggle = 0;
 unsigned long blinkTime = 0; 
