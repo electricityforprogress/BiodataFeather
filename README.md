@@ -3,7 +3,7 @@ Feather daughter board for the Adafruit ESP32 and Huzzah (and others), allowing 
 Still a work in progress, and can provide the framework for anyone to use other Adafruit Feather boards
      Lots of Biodata information on my website electricityforprogress.com
 See also the project submission on [Hackaday.io](https://hackaday.io/project/182849-biodata-sonification-v05)
-Parts Listing / BOM
+
 3D Enclosure Model: https://www.tinkercad.com/things/8HZnh0ERNtr-biodata-wifi-snap-enclosure
 
 Menu Modes:
