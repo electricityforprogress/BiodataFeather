@@ -357,14 +357,14 @@ void setupWifi(){
   //isConnected
   AppleMIDI.setHandleConnected([](const APPLEMIDI_NAMESPACE::ssrc_t & ssrc, const char* name) {
     isConnected = 1;
-    DBG(F("Connected to session"), ssrc, name);
+    //DBG(F("Connected to session"), ssrc, name);
     ledFaders[4].Set(ledFaders[4].maxBright,0); // turn on white LED;
     delay(1000);
     ledFaders[4].Set(0,0);
   });
   AppleMIDI.setHandleDisconnected([](const APPLEMIDI_NAMESPACE::ssrc_t & ssrc) {
     isConnected = 0;
-    DBG(F("Disconnected"), ssrc);
+    //DBG(F("Disconnected"), ssrc);
     ledFaders[1].Set(ledFaders[1].maxBright,0); // turn on white LED;
     delay(1000);
     ledFaders[1].Set(0,0);
