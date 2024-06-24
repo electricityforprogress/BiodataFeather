@@ -200,8 +200,10 @@ class samFader {
   }
 
   void Setup(byte chan) {
-    ledcSetup(chan,5000,8);
-    ledcAttachPin(pinNumber,chan);
+    //ledcSetup(chan,5000,8);
+    //ledcAttachPin(pinNumber,chan);
+    //espressif v3.0 has breaking changes (and fades) for ledc, friends don't do this to eachother!
+    ledcAttach(pinNumber,5000,8);
   }
   
 };
