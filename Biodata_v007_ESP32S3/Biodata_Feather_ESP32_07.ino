@@ -175,7 +175,8 @@ class samFader {
     stepSize = duration/(difference+1);
     isRunning = 1;
     if(dur == 0) { // do it right away!
-      ledcWrite(espPWMchannel, dest);
+    //  ledcWrite(espPWMchannel, dest); //updated for esp 3.0
+     ledcWrite(pinNumber, dest);
       isRunning = 0;
     }
   }
@@ -189,10 +190,10 @@ class samFader {
         //update variables for tracking
         stepTime = millis();
         //write brightness to LED
-        ledcWrite(espPWMchannel, currentLevel);
+        ledcWrite(pinNumber, currentLevel);
       }
       if(startTime+duration<millis()) {
-        ledcWrite(espPWMchannel, destinationLevel);
+        ledcWrite(pinNumber, destinationLevel);
         isRunning = 0;
       }
     }
